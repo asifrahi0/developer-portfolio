@@ -20,6 +20,9 @@ h1{
 .half-width img{
     width: 80%;
 }
+.half-width p{
+    color: #696969;
+}
 .link-button{
     text-decoration: none;
     background-color: #FF7C5C;
@@ -28,3 +31,22 @@ h1{
     color: white;
     font-weight: 700;
 } 
+.middle-part{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-half-width{
+    width: 50%;
+    padding-top: 150px; 
+}
+.second-half-width img{
+    width: 80%;
+    padding-left: 80px;
+
+}
+.second-half-width p{
+    padding-right:40px;
+    color: #696969;
+}
