@@ -47,6 +47,35 @@ h1{
 
 }
 .second-half-width p{
-    padding-right:40px;
+    padding-right:150px;
     color: #696969;
+}
+.third-half-width{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-bottom: 100px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.experience-item h3{
+    color: orange;
+}
+#full-stack{
+    border-left:7px solid #FF8B68 ;
+}
+#baby{
+    border-left: 7px solid #00AEFF;
+}
+footer p{
+    text-align: center;
+    color: #696969;
+    font-size: 14px;
 }
